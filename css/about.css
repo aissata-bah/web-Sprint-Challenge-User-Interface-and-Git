@@ -187,8 +187,9 @@ a:link {
     padding: 2.5vh 0;
 }
 
-footer nav {
-    width: 50%;
+footer {
+    width: 800px;
+    margin: 0 auto;
     background: black;
     display: flex;
     justify-content: center;
