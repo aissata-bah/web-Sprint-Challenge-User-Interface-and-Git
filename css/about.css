@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* work below here */
 
 header {
     display: flex;
@@ -84,140 +85,115 @@ a:link {
 .topImage {
     width: 800px;
     margin: 0 auto;
-    padding: 5.5vh 0 2.5vh;
+    padding: 2.5vh 0;
 }
 
-.container {
-    width: 800px;
+
+.aboutRow {
+    width: 780px;
     margin: 0 auto;
+    padding: 2.5vh 0;
+    border-bottom: thin dashed;
+    line-height: 25%;
 }
 
-.top-content {
+.topBoxes {
+    width: 780px;
+    margin: 0 auto;
+    padding: 2.5vh 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.box1 {
-    background-color: red;
-    padding: 30px;
-}
-
-.box2 {
-    background-color: gold;
-    padding: 30px;
-}
-
-.box3 {
-    background-color: cadetblue;
-    padding: 30px;
-}
-
-.box4 {
-    background-color: coral;
-    padding: 30px;
-}
-
-.box5 {
-    background-color: crimson;
-    padding: 30px;
-}
-
-.box6 {
-    background-color: forestgreen;
-    padding: 30px;
-}
-
-.box7 {
-    background-color: darkorchid;
-    padding: 30px;
-}
-
-.box8 {
-    background-color: hotpink;
-    padding: 30px;
-}
-
-.box9 {
-    background-color: indigo;
-    padding: 30px;
-}
-
-.box10 {
-    background-color: dodgerblue;
-    padding: 25px;
-}
-
-.middle-content .topBoxes {
+.bottomBoxes {
+    width: 780px;
+    margin: 0 auto;
+    padding: 2.5vh 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 0 1%;
-    padding-top: 20px; /* to give space between "why did it have to be boxes" and actual boxes" */
-    padding-bottom: 20px;
 }
 
-.middle-content .bottomBoxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 0 1%;
-    padding-bottom: 20px;
+.topLeftBox{
+    border-bottom: thin dashed;
+    margin-right: 10px;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.topLeftBox button {
+    background-color: white;
+    border: 2.5px solid;
+    border-color: black;
+    color: black;
+    border-radius: 8px;;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+.topRightBox {
+    border-bottom: thin dashed;
+    padding-bottom: 10px;
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+.topRightBox button {
+    background-color: white;
+    border: 2.5px solid;
+    border-color: black;
+    color: black;
+    border-radius: 8px;;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+.bottomLeftBox {
+    border-bottom: thin dashed;
+    margin-right: 10px;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+.bottomLeftBox button {
+    background-color: white;
+    border: 2.5px solid;
+    border-color: black;
+    color: black;
+    border-radius: 8px;;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+.bottomRightBox {
+    border-bottom: thin dashed;
+    padding-bottom: 10px;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.bottomRightBox button {
+    background-color: white;
+    border: 2.5px solid;
+    border-color: black;
+    color: black;
+    border-radius: 8px;;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+.bottomRow {
+    width: 780px;
+    margin: 0 auto;
+    padding: 2.5vh 0;
 }
 
 footer {
-    width: 100%;
+    width: 800px;
+    margin: 0 auto;
     background: black;
-}
-
-footer nav {
-    width: 60%;
     display: flex;
+    justify-content: center;
     justify-content: space-between;
-    align-items: center;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -226,3 +202,14 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* footer {
+    display: flex;
+    justify-content: flex-start;
+    width: 800px;
+    margin: 0 auto;
+    padding: 2.5vh 0;
+    background-color: black;
+    color: white;
+
+} */
