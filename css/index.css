@@ -84,7 +84,7 @@ a:link {
 .topImage {
     width: 800px;
     margin: 0 auto;
-    padding: 2.5vh 0;
+    padding: 5.5vh 0 2.5vh;
 }
 
 .container {
@@ -115,8 +115,6 @@ a:link {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
-/* my work below */
 
 .box1 {
     background-color: red;
@@ -184,7 +182,6 @@ a:link {
     padding: 0 1%;
     padding-bottom: 20px;
 }
-/* my work above */
 
 .middle-content .boxes .box {
     width: 12.5%;
