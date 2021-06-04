@@ -66,6 +66,27 @@ p {
     line-height: 1.4;
 }
 
+header {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 2.5vh 0 0 0;
+}
+
+a:link {
+    text-decoration: none;
+    padding-left: 9vh;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.topImage {
+    width: 800px;
+    margin: 0 auto;
+    padding: 2.5vh 0;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
