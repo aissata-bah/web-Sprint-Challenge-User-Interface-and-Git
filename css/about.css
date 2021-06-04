@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* work below here */
 
 header {
     display: flex;
@@ -88,9 +89,126 @@ a:link {
 }
 
 
-.topRow {
-    width: 800px;
+.aboutRow {
+    width: 780px;
     margin: 0 auto;
     padding: 2.5vh 0;
     border-bottom: thin dashed;
+    line-height: 25%;
 }
+
+.topBoxes {
+    width: 780px;
+    margin: 0 auto;
+    padding: 2.5vh 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottomBoxes {
+    width: 780px;
+    margin: 0 auto;
+    padding: 2.5vh 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topLeftBox{
+    border-bottom: thin dashed;
+    margin-right: 10px;
+}
+
+.topLeftBox button {
+    background-color: white;
+    border: 2.5px solid;
+    border-color: black;
+    color: black;
+    border-radius: 8px;;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+.topRightBox {
+    border-bottom: thin dashed;
+    padding-bottom: 10px;
+}
+
+.topRightBox button {
+    background-color: white;
+    border: 2.5px solid;
+    border-color: black;
+    color: black;
+    border-radius: 8px;;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+.bottomLeftBox {
+    border-bottom: thin dashed;
+    margin-right: 10px;
+}
+
+.bottomLeftBox button {
+    background-color: white;
+    border: 2.5px solid;
+    border-color: black;
+    color: black;
+    border-radius: 8px;;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+.bottomRightBox {
+    border-bottom: thin dashed;
+    padding-bottom: 10px;
+}
+
+.bottomRightBox button {
+    background-color: white;
+    border: 2.5px solid;
+    border-color: black;
+    color: black;
+    border-radius: 8px;;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+.bottomRow {
+    width: 780px;
+    margin: 0 auto;
+    padding: 2.5vh 0;
+}
+
+footer nav {
+    width: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* footer {
+    display: flex;
+    justify-content: flex-start;
+    width: 800px;
+    margin: 0 auto;
+    padding: 2.5vh 0;
+    background-color: black;
+    color: white;
+
+} */
